@@ -1,0 +1,4 @@
+Eclipse:
+Find
+<cf_([^>\s]+)([^>]*)>
+replace: <cfmodule template="$1.cfm"$2>
